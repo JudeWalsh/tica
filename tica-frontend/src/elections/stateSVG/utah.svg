@@ -1,0 +1,34 @@
+<svg 
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 500 500" 
+      version="1.2" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+      width="500" 
+      height="500"
+    >
+    <path
+          d="M443.21032127735816,500.00000000000045L250.00172651430694,497.3929778364841L56.78967872264184,499.8687429981983L57.60591472829037,0L159.33115597381038,126.34548534428131L257.34343044565867,251.82275932565562L351.8917300563935,376.38481126818306Z"
+          data-id="USA.45"
+          data-name="Utah"
+          fill="transparent"
+          stroke="black"
+          fill-opacity="1"
+        />
+		
+    <text
+            x="153.17620849609375"
+            y="378.3014831542969"
+            dominant-baseline="middle"
+            text-anchor="middle"
+            font-size="8px"
+            font-family="sans-serif"
+            fill="black"
+            stroke="black"
+            stroke-width="0.2px"
+            stroke-linejoin="round"
+          >
+            <tspan x="153.17620849609375" ></tspan>
+         </text>
+  </svg>
