@@ -1,0 +1,29 @@
+# General
+node_modules/
+dist/
+build/
+.env
+*.log
+.DS_Store
+*.pyc
+__pycache__/
+*.sqlite3
+coverage/
+.vscode/
+.idea/
+
+# Frontend (React)
+tica-frontend/node_modules/
+tica-frontend/build/
+tica-frontend/.env
+
+# Backend (Python)
+tica-backend/__pycache__/
+tica-backend/.env
+tica-backend/venv/
+tica-backend/env/
+tica-backend/.mypy_cache/
+tica-backend/.pytest_cache/
+
+# OS-specific files
+Thumbs.db

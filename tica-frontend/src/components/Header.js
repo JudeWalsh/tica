@@ -25,11 +25,7 @@ const Header = () => {
           >
             US Elections
           </Button>
-          <Button
-          component={Link}
-          to="/superPowerIndex"
-          sx={{ color: 'white', marginLeft: 2 }}
-          >
+          <Button>
             Super Power Index
           </Button>
           <Button>
