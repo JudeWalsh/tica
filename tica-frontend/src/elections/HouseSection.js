@@ -15,7 +15,7 @@ const HouseSection = ({ selectedYear }) => {
         const fetchElectionData = async () => {
             setLoading(true);
             try {
-                const response = await fetch(`http://127.0.0.1:8000/house_analytics/${selectedYear}`);
+                const response = await fetch(`http://localhost:8000/house_analytics/${selectedYear}`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }

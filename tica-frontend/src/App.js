@@ -15,7 +15,7 @@ const App = () => {
       <div className="content">
         <Routes>
           <Route path="/home" element={<Home />} />
-
+          <Route path="/elections" element={<Elections />} />
           <Route path="/crypto" element={<Bitcoin />} />
           <Route path="/superPowerIndex" element={<SuperPowerIndex />} />
           <Route path="/" element={<Home />} /> {/* Default route */}

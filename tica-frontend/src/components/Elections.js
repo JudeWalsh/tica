@@ -19,7 +19,7 @@ const Elections = () => {
   useEffect(() => {
     const fetchYears = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:8000/election_years");
+        const response = await fetch("http://localhost:8000/election_years");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -42,7 +42,7 @@ const Elections = () => {
 
     const fetchElectionData = async () => {
       try {
-        const response = await fetch(`http://127.0.0.1:8000/elections/${selectedYear}`);
+        const response = await fetch(`http://localhost:8000/elections/${selectedYear}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
